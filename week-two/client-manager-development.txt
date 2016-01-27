@@ -38,9 +38,12 @@ Use Google or another search engine to learn the keyboard commands to take a scr
 
 Then, also list here the keyboard commands to switch between your different virtual desktops (on some operating systems, you might be able to customize the shortcuts to your own liking):
 
+<<<<<<< HEAD
 Ctrl + Right/Left arrow
 Four finger swipe right/left on trackpad
 
+=======
+>>>>>>> 7e210fca2b85fef12d35259e3104894abfff8f32
 
 4. Set up a distraction-free browser.
 
