@@ -6,45 +6,60 @@
          <meta name="viewport" content="width=device-width,initial-value=1.0",shrink-to-fit="no">
         <link rel="stylesheet" href="Onboarding.css">
         <link rel="stylesheet" href="reset.css">
-        <link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet'>
-        <link href='https://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet'> 
+        <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Old+Standard+TT:700' rel='stylesheet' type='text/css'>
     </head>
-    <body>
+    <body id="signup">
             <div id="header"><h1>Sign Up</h1></div>
+            <pre>     </pre>    
             <div id="nav">
                 <div id="home" class="navbutton">
-                <p class="navLabel"></p>
                    <nav>
-                    <a class="active" href="Onboarding.html">Come Home!</a>
+                    <a href="Onboarding.html">Come Home!</a>
                     </nav>
                 </div>
                 <div id="form" class="navbutton">
-                    <p class="navLabel"></p>
                         <nav>
                             <a class="active" href="OnboardingForm.html">Schedule a Session</a>
                         </nav>
                 </div>
                 <div id="form" class="navbutton">
-                    <p class="navLabel"></p>
                         <nav>
-                            <a class="active" href="Butterfly.html">Butterfly</a>
+                            <a href="Butterfly.html">Butterfly</a>
                         </nav>
                 </div>
             </div>
-                <div id="contact">                    
-                    <p>Schedule your session with one of our professional furtographers! </p>
-            <form id="contact" action"/" method="POST">
-                <input type="text" placeholder="First Name" class="input" id="fname" title="Enter your first name here."/><br/><br/>
+            <div id="contact">                    
+                <p>Schedule your session with one of our professional furtographers! </p>
+                <form id="contact" action"/" method="POST">
+                    <input type="text" placeholder="First Name" class="input" id="fname" title="Enter your first name here."/><br/><br/>
                     <input type="text" placeholder="Last Name" class="input" id="lname" title="Enter your last name here."/><br/><br/>
-                    <input type="text" placeholder="Phone Number" class="input" id="pnumber" title="Enter your phone number in the format (xxx) xxx-xxxx"/><br/><br/>
+                    <input type="text" placeholder="(xxx) xxx-xxxx" class="input" id="pnumber" title="Enter your phone number"/><br/><br/>
                     <input type="text" placeholder="Email" class="input" id="email" title="Enter your email in the format john.doe@email.com"/><br/><br/>
-                    <input type="checkbox" id="checkbox"/>Check here to subscribe to our mewsletter!<br/>    
+                    <br/></br/>Select an Era:<br> 
+                    <select>
+                        <option value="select"></option>
+                        <option value="stoneage">Stone Age</option>
+                        <option value="egyptian">Egyptian</option>
+                        <option value="greek">Roman</option>
+                        <option value="renaissance">The Renaissance</option>
+                        <option value="romanticism">Romanticism</option>
+                        <option value="realism">Realism</option>
+                        <option value="impressionism">Impressionism</option>
+                        <option value="cubism">Cubism</option>
+                        <option value="surrealism">Surrealism</option>
+                        <option value="popart">Pop Art</option>]
+                        <option value="postmodern">Post Modern</option>
+                    </select><br/><br/>
+                    Appointments: <br/><br/><iframe id="calendar" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;mode=WEEK&amp;height=150&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=x13.cindy%40gmail.com&amp;color=%23182C57&amp;ctz=America%2FChicago" style="border-width:0" frameborder="0" scrolling="no"></iframe><br/>
+                    <img src="pawprint.jpg" id="pawprint">
+                    <pre>           
+                    
+                    
+                    
+                    </pre><input type="checkbox" id="checkbox"/>Check here to subscribe to our mewsletter!<br/><br/>    
                     <input type="submit" value="Submit" id="submit" disabled="disabled"/>
-                    </form>
-                </div>      
-                <br/>          
-            </div>
-        </div>
-    </body>
-    
+            </form>
+        </div><br/>          
+    </body> 
 </html>

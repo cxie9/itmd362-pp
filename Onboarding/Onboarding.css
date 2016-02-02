@@ -1,45 +1,103 @@
 #header {
     text-align: center;
-    font-family: serif;
-    font-size: 40px;
-    color: sandybrown;
+    font-family: 'Old Standard TT', serif;
+    font-size: 5em;
+    color:dimgray;
+    
 }
 
 body {
     position: relative;
     margin: 0px;
     overflow-x: hidden;
+    background-image: url(pawbg.jpg);
+    background-size: cover;
+    
+}
+
+#about{
+    position: relative;
+    padding: 11em;
+    font-family: 'Arvo', serif;
+    color:darkolivegreen;
+    text-align: center;
+    
+}
+
+ul {
+    position: relative;
+    font-family: 'Arvo', serif;
+    color:darkolivegreen;
+    text-align: center;
+}
+
+#signup{
+    background-image: url(pawphoto.jpg);
+    background-size:contain;
+    background-repeat:round;
+    
+}
+
+#furhome{
+    background-image: url(homebg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    
 }
 
 #nav {
     position: relative;
     height: 90px;
      }
-
-.navLabel {
-    padding: 10px;
-}
     
 .navbutton {
     box-sizing: border-box;
     position: relative;
     float: left;
-    width: 25%;
+    width: 33.3%;
     text-align: center;
-    border-bottom:10px;
-    border-color:antiquewhite;
-    border-bottom-style:inset;
-    border-top:10px;
-    border-color:cornsilk;
-    border-top-style:inset;
-    background-color:burlywood;
-    color:darksalmon;
+    border-bottom:0.5em;
+    border-bottom-style:dotted;
+    border-top:0.5em;
+    border-color:beige;
+    border-top-style:dotted;
+    background-color:darkgray;
+    font-family:'Arvo', serif;
+    padding: 1em;
+    color: darkolivegreen;
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: beige;
+}
+
+#contact{
+    margin: 2em;
+    text-align:center;
+    font-family: 'Arvo', serif;
+    color:darkolivegreen;
+}
+
+#order{
+    margin: 0.5em;
+    text-align:center;
+    font-family: 'Arvo', serif;
+    color:darkolivegreen;
+}
+
+#pawprint{
+    width: 2em;
+    height: 2em;
 }
 
 
+#calendar{
+    width: 30em;
+    height: 10em;
+}
 
+#cboxes{
+    text-align:center;
+  
+}
 
