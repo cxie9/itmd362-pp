@@ -1,0 +1,45 @@
+#header {
+    text-align: center;
+    font-family: serif;
+    font-size: 40px;
+    color: sandybrown;
+}
+
+body {
+    position: relative;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+#nav {
+    position: relative;
+    height: 90px;
+     }
+
+.navLabel {
+    padding: 10px;
+}
+    
+.navbutton {
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    width: 25%;
+    text-align: center;
+    border-bottom:10px;
+    border-color:antiquewhite;
+    border-bottom-style:inset;
+    border-top:10px;
+    border-color:cornsilk;
+    border-top-style:inset;
+    background-color:burlywood;
+    color:darksalmon;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+
+
