@@ -9,31 +9,27 @@
     <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Old+Standard+TT:700' rel='stylesheet' type='text/css'>
 </head>
-    <body>
+    <body id="butterfly">
         <div id="header"><h1>Order</h1></div>
         <pre>     </pre>
         <div id="nav">
-            <div id="home" class="navbutton">
-                   <nav>
-                    <a href="Onboarding.html">Come Home!</a>
-                    </nav>
-            </div>
-            <div id="form" class="navbutton">
-                    <nav>
-                    <a href="OnboardingForm.html">Schedule a Session</a>
-                    </nav>
-            </div>
-            <div id="home" class="navbutton">
-                   <nav>
-                    <a class="active" href="Butterfly.html">Butterfly</a>
-                    </nav>
+            <div class="navbutton">
+             <nav class="navbar">
+                    <a id = "home" href="Onboarding.html">Home</a>
+                </nav>
+                <nav id="active" class="navbar">
+                    <a id ="Oform" href="OnboardingForm.html">Schedule a Session</a>
+                </nav>
+                <nav class="navbar">
+                    <a id = "butterfly" href="Butterfly.html">Butterfly</a>
+                </nav>
             </div>
         </div>
         
         <div id="order">
             <p>Order your pet parafurnalia here!</p><br/><br/>
             <form id="order" action"/" method="POST">
-                <input type="text" placeholder="What is your fluffy's name?" class="input" id="fname" title="Enter your pet's name here."/><br/><br/>
+                <input type="text" required placeholder="Fluffy's Name" class="input" id="fname" title="Enter your pet's name here."/><br/><br/>
                 Upload your favorite furtos: <br/><br/><input type="file" class="input" id="photo" title="File must be in .jpg format"/><br/><br/>
                 <input type="file" class="input" id="photo" title="File must be in .jpg format"/><br/><br/>
                 <input type="file" class="input" id="photo" title="File must be in .jpg format"/><br/><br/>
@@ -50,7 +46,7 @@
             </form>
         </div>
         
-    
+      <script src="P1myscripts.js"></script>
     
     </body>
 </html>

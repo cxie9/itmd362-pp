@@ -1,6 +1,6 @@
-<html>
-    
-    <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
         <title>Onboarding Form Page</title>
         <meta charset="utf-8">
          <meta name="viewport" content="width=device-width,initial-value=1.0",shrink-to-fit="no">
@@ -8,36 +8,33 @@
         <link rel="stylesheet" href="reset.css">
         <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Old+Standard+TT:700' rel='stylesheet' type='text/css'>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     </head>
     <body id="signup">
-            <div id="header"><h1>Sign Up</h1></div>
-            <pre>     </pre>    
-            <div id="nav">
-                <div id="home" class="navbutton">
-                   <nav>
-                    <a href="Onboarding.html">Come Home!</a>
-                    </nav>
-                </div>
-                <div id="form" class="navbutton">
-                        <nav>
-                            <a class="active" href="OnboardingForm.html">Schedule a Session</a>
-                        </nav>
-                </div>
-                <div id="form" class="navbutton">
-                        <nav>
-                            <a href="Butterfly.html">Butterfly</a>
-                        </nav>
-                </div>
+        <div id="header"><h1>Sign Up</h1></div>
+        <pre>     </pre>    
+        <div id="nav">
+            <div class="navbutton">
+                <nav class="navbar">
+                    <a id = "home" href="Onboarding.html">Home</a>
+                </nav>
+                <nav id="active" class="navbar">
+                    <a id ="Oform" href="OnboardingForm.html">Schedule a Session</a>
+                </nav>
+                <nav class="navbar">
+                    <a id = "butterfly" href="Butterfly.html">Butterfly</a>
+                </nav>
             </div>
-            <div id="contact">                    
+        </div>
+        <div id="contact">                    
                 <p>Schedule your session with one of our professional furtographers! </p>
-                <form id="contact" action"/" method="POST">
-                    <input type="text" placeholder="First Name" class="input" id="fname" title="Enter your first name here."/><br/><br/>
-                    <input type="text" placeholder="Last Name" class="input" id="lname" title="Enter your last name here."/><br/><br/>
-                    <input type="text" placeholder="(xxx) xxx-xxxx" class="input" id="pnumber" title="Enter your phone number"/><br/><br/>
-                    <input type="text" placeholder="Email" class="input" id="email" title="Enter your email in the format john.doe@email.com"/><br/><br/>
-                    <br/></br/>Select an Era:<br> 
-                    <select>
+                <form id="contact" action"/" method="POST" autocomplete="on">
+                    <input type="text" id="hname" required placeholder="Human's Name" class="input" title="Enter your name here."/><br/><br/>
+                    <input type="text" id = "pname" required placeholder="Pet's Name" class="input" title="Enter your pet's name here."/><br/><br/>
+                    <input type="tel" placeholder="Phone Number (Opt.)" class="input" id="pnumber" title="Enter your phone number"/><br/><br/>
+                    <input type="email" id="email" required placeholder="Email" class="input" title="Enter your email"/><br/><br/>
+                    <br/><br/>Select an Era:<br> 
+                    <select id="pick" required>
                         <option value="select"></option>
                         <option value="stoneage">Stone Age</option>
                         <option value="egyptian">Egyptian</option>
@@ -51,15 +48,19 @@
                         <option value="popart">Pop Art</option>]
                         <option value="postmodern">Post Modern</option>
                     </select><br/><br/>
-                    Appointments: <br/><br/><iframe id="calendar" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;mode=WEEK&amp;height=150&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=x13.cindy%40gmail.com&amp;color=%23182C57&amp;ctz=America%2FChicago" style="border-width:0" frameborder="0" scrolling="no"></iframe><br/>
-                    <img src="pawprint.jpg" id="pawprint">
+                    Appointments: <br/><br/>
+            <iframe id="calendar" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;mode=WEEK&amp;height=150&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=x13.cindy%40gmail.com&amp;color=%23182C57&amp;ctz=America%2FChicago" style="border-width:0" frameborder="0" scrolling="no"></iframe><br/>
                     <pre>           
                     
                     
-                    
-                    </pre><input type="checkbox" id="checkbox"/>Check here to subscribe to our mewsletter!<br/><br/>    
+                    </pre><img src="pawprint.jpg" id="pawprint">
+                    <input type="checkbox" id="checkbox"/>Check here to subscribe to our mewsletter!<br/><br/>    
                     <input type="submit" value="Submit" id="submit" disabled="disabled"/>
-            </form>
-        </div><br/>          
-    </body> 
+                    <input type="reset" id="reset"/>
+                    
+            </form>        
+        </div>
+          <script src="P1submit.js"></script>
+          <script src="P1myscripts.js"></script>
+    </body>
 </html>
