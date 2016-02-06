@@ -3,13 +3,17 @@ html{
     -mox-text-size-adjust: 100%;
     -ie-text-size-adjust: 100%;
     text-size-adjust: 100%;
+    
 }
 
 #header {
     text-align: center;
     font-family: 'Old Standard TT', serif;
-    font-size: 4em;
+    font-size: 3em;
     color:dimgray;
+    width: 100%;
+    height:0.8em;
+    
     
 }
 
@@ -19,6 +23,10 @@ body {
     overflow-x: hidden;
     background-image: url(pawbg.jpg);
     background-size: cover;
+    font-size: 1.05em;
+    line-height: 1.25em;
+    display: block;
+    
     
 }
 
@@ -26,25 +34,31 @@ body {
     position: relative;
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: 10%;
+    margin-top: 20%;
     font-family: 'Arvo', serif;
     color:darkslategrey;
     text-align: center;    
 }
 
+
+
 #list {
+    list-style: none;
+    padding:0 0 0 20px;
     position: relative;
-    margin-left: 40%;
-    margin-right: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
     font-family: 'Arvo', serif;
     color:darkslategrey;
     text-align: left;
+    
 }
 
 #signup{
     background-image: url(pawphoto.jpg);
-    background-size:contain;
+    background-size:cover;
     background-repeat:round;
+    display: block;
     
 }
 
@@ -52,18 +66,24 @@ body {
     background-image: url(homebg.jpg);
     background-size:cover;
     background-repeat: no-repeat;
+    display:block;
     
 }
 
 #nav {
-    position: relative;
-    height: 100px;
+	display:block;
+	width:100%;
+	text-align: center;
+	line-height: 1em;
+
      }
-    
+
 .navbutton {
-    box-sizing: border-box;
+    box-sizing:content-box;
     position: relative;
     float: left;
+    text-transform: uppercase;
+    padding: 0 20px;
     width: 100%;
     text-align: center;
     border-bottom:0.5em;
@@ -74,6 +94,10 @@ body {
     background-color:darkgray;
     font-family:'Arvo', serif;
     color: darkslategrey;
+     -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    display: block;
 }
 
 .active {
@@ -81,7 +105,7 @@ body {
 }
 
 #contact{
-    margin-top: 1em;
+    margin-top: 6em;
     text-align:center;
     font-family: 'Arvo', serif;
     color:darkslategrey;
@@ -93,7 +117,7 @@ body {
 }
 
 #order{
-    margin-top: 1em;
+    margin-top: 6em;
     text-align:center;
     font-family: 'Arvo', serif;
     color: darkslategrey;
@@ -153,4 +177,35 @@ input:valid {
   background-color: floralwhite;
 }
 
+@media only screen and (min-width: 768px) {
+ 
+     
+    #nav {
+        position: absolute;
+        top: 4em;
+        right: 10px;
+        background: none;
+    }
+     
+    #nav li {
+        display: inline;
+    }
+     
+    #nav li a {
+        float: left;
+        border: none;
+        padding: 0 10px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+    }
+ 
+}
+
+
   
+header {
+    float: right;
+    font-family: 'Arvo', serif;
+    
+}
