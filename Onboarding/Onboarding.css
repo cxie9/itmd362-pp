@@ -19,13 +19,11 @@ html{
 
 body {
     position: relative;
-    margin: 0px;
     overflow-x: hidden;
     background-image: url(pawbg.jpg);
     background-size: cover;
     font-size: 1.05em;
     line-height: 1.25em;
-    display: block;
     
     
 }
@@ -58,7 +56,6 @@ body {
     background-image: url(pawphoto.jpg);
     background-size:cover;
     background-repeat:round;
-    display: block;
     
 }
 
@@ -66,12 +63,10 @@ body {
     background-image: url(homebg.jpg);
     background-size:cover;
     background-repeat: no-repeat;
-    display:block;
     
 }
 
 #nav {
-	display:block;
 	width:100%;
 	text-align: center;
 	line-height: 1em;
@@ -105,38 +100,39 @@ body {
 }
 
 #contact{
-    margin-top: 6em;
-    text-align:center;
+    margin: 3em;
+    text-align:left;
     font-family: 'Arvo', serif;
     color:darkslategrey;
 }
 
-.input{
-    background-color:floralwhite;
-    box-sizing: ;
+label{
+  -webkit-appearance: none; 
+  -moz-appearance: none; 
+  -ie-appearance: none;
+  -webkit-text-size-adjust: 100%;
+  -mox-text-size-adjust: 100%;
+  -ie-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  display: block;
+  margin: 0;
+  margin-bottom: 2em;
+  width: 100%; 
+  height: 2em;
+  line-height: 5em; 
+  font-size: 1em;
+  border: 1em solid #ccc;
 }
 
-#order{
-    margin-top: 6em;
-    text-align:center;
-    font-family: 'Arvo', serif;
-    color: darkslategrey;
-}
 
 #pawprint{
     width: 2em;
     height: 2em;
 }
 
-
-#calendar{
-    width: 30em;
-    height: 10em;
-}
-
-#cboxes{
-    text-align:center;
-  
+#checkbox{
+    width: 1em;
+    height: 1em;
 }
 
 
@@ -179,7 +175,24 @@ input:valid {
 
 @media only screen and (min-width: 768px) {
  
-     
+    input, select{
+     -webkit-appearance: none; 
+      -moz-appearance: none; 
+      -ie-appearance: none;
+      -webkit-text-size-adjust: 100%;
+      -mox-text-size-adjust: 100%;
+      -ie-text-size-adjust: 100%;
+      text-size-adjust: 100%;
+      display: block;
+      width: 40%; 
+      margin-bottom: 20px;    
+      height: 2em;
+      line-height: 3em; 
+      font-size: 1em;
+      border: 0.1em solid #ccc; 
+      background-color: ghostwhite;
+    } 
+   
     #nav {
         position: absolute;
         top: 4em;
@@ -199,13 +212,67 @@ input:valid {
         -moz-border-radius: 2px;
         border-radius: 2px;
     }
- 
+    
+    #menu {
+    float: right;
+    font-family: 'Arvo', serif;
+    display: none;
+    }
+    
+    #calendar{
+    width: 30em;
+    height: 10em;
+}
+}
+@media only screen and (max-width: 767px) {
+
+    #menu {
+        float: right;
+        font-family: 'Arvo', serif;
+        display: block;
+    
+    }
+    
+    input, select{
+      -webkit-appearance: none; 
+      -moz-appearance: none; 
+      -ie-appearance: none;
+      -webkit-text-size-adjust: 100%;
+      -mox-text-size-adjust: 100%;
+      -ie-text-size-adjust: 100%;
+      text-size-adjust: 100%;
+      display: block;
+      margin: 0;
+      margin-bottom: 20px;
+      width: 100%; 
+      height: 2em;
+      line-height: 3em; 
+      font-size: 1em;
+      border: 0.1em solid #ccc; 
+      background-color: ghostwhite;
+
+    }
+    
+    #calendar{
+    width: 10em;
+    height: 10em;
+    }
 }
 
 
-  
-header {
-    float: right;
-    font-family: 'Arvo', serif;
-    
+#submit {
+    padding-bottom: 2.5em;
+    width:5em;
+    border-radius:0.5em;
+    background-color: darkslategrey;
+    color: aliceblue;
+    font-size: 1em;
+    }
+
+#reset {
+    padding-bottom: 2.5em;
+    width:5em;
+    border-radius:0.5em;
+    background-color: darkslategrey;
+    font-size: 1em;
 }
