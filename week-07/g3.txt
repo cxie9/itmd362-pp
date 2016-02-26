@@ -1,0 +1,5 @@
+HCI Guideline Three (URL):
+https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/Alerts.html#//apple_ref/doc/uid/TP40006556-CH14-SW1
+
+How you implemented it in your sketch:
+Temporary alerts should have first letters capitalized and the rest lower-case according to Apple. IIT’s current failed login page does not pop up within the screen but rather pulls up another page with a bunch of choices that the user will never use. The two options that I pulled from Apple are “try again” or “forgot password”. The user already knows an error occurred from the title alone so the error message can be cut out. No one is going to “click here” to enter their password again when they can just scroll back. Finally, the tip of contacting the sysadmin also proves useless. However, I still kept the red IIT theme in the alert message.  
