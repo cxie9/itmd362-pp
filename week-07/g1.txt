@@ -1,0 +1,4 @@
+HCI Guidline One (URL):
+https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/Branding.html#//apple_ref/doc/uid/TP40006556-CH60-SW1
+
+IIT’s login page has far too much branding. YES, WE KNOW IIT. So I simplified it via Apple’s branding guidelines, highlighting the name once and integrating the red color throughout the page. I also kept the only elements people care about: logging in. 
