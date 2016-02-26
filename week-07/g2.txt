@@ -1,0 +1,5 @@
+HCI Guideline Two (URL):
+https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/BarIcons.html#//apple_ref/doc/uid/TP40006556-CH21-SW1 
+
+How you implemented it in your sketch:
+Apple guidelines state that icons should be simple and streamlined, not easily mistaken for common system icons, and be readily understood and accepted. If IIT insists on keeping the boxes of alerts, google pages, and jobs4hawks containers, then they should be  contained in a nav-bar-like linking icon at the bottom of the page.
