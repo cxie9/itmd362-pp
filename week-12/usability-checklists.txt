@@ -8,18 +8,18 @@ Usability checklists are typical, and sometimes mindless, tools/magic tricks use
 
 * URLs for the usability checklists you've found:
 
-1.
-2.
+1. http://www.businessknowhow.com/marketing/webchecklist.htm
+2. http://www.webpagesthatsuck.com/does-my-web-site-suck/does-my-web-site-suck-checklist-part-two.html 
 
 * Your own condensed, ten-item must-have usability checklist:
 
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
+1. Our site’s code is HTML validated.
+2. Our site is accessible to visitors with physical disabilities.
+3. Visitors can quickly (2 seconds or less) tell what to do when they land on our site.
+4. Navigation is clear and consistent. 
+5. Our site is design responsive.
+6. Our site is cross-browser compatible.
+7. Content is updated frequently/ is up-to-date.
+8. Our site loads quickly.
+9. Visitors can find information/use services quickly. 
+10. Most vital information is present without scrolling up or down. 
