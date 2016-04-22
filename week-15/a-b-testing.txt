@@ -1,0 +1,19 @@
+# Production Problem 9: A/B Testing on the Cheap
+
+## The Problem
+
+Locate an interface component on some website that you use frequently that you think could be improved. The improvement should be minor, as we discussed in class.
+
+Take a screenshot of the interface on both a mobile and desktop device. Then, sketch or illustrate your alternate/"b" test. Finally, describe modification and the HTML, CSS, and JavaScript that you would need to write in order to conduct the test.
+
+## Deliverables
+
+* Screenshots of the interface component on mobile and desktop, placed in this directory (`week-15`)
+
+* Sketch or illustrate (e.g., in Photoshop) your alternate/"b" test, placed in this directory (`week-15`)
+
+* A text description of the modification, and a description of the HTML, CSS, and JavaScript that you would need to write for the test (you do *not* have to write the actual HTML, CSS, and JavaScript, however)
+
+I would change the popular deals section that this site has on the right hand side. The site should more closely resemble the mobile site’s display. Just because desktop has more room, doesn’t mean that users will enjoy more content cluttering up screen space. With the popular deals section added as a section just like “Featured Deals” and “Frontpage Slickdeals”, users might actually look at popular deals. As it is now, it is located where ads are usually placed. 
+
+The current html has popular deals under h3. This header tag and entire section should be moved under Frontpage Slickdeals and changed to an h2. CSS should reflect the same styling as Frontpage and Featured Deals sections. With the extra space, each tile can now be wider than the current cramped space it currently is setup in and the blue titles/descriptions won’t be cut off. The javascript should count or show whether or not users click more frequently on the popular deals section now that it isn’t on the side of the screen. “A” test should have the site as is. “B” test should have the popular deals section moved under Frontpage Slickdeals.     
